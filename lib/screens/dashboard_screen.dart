@@ -101,8 +101,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => HabitacionesScreen(
-                          rol: widget.rol)), // 🔹 Pasamos el rol aquí
+                      builder: (context) =>
+                          HabitacionesScreen(rol: widget.rol)),
                 );
               },
             ),
